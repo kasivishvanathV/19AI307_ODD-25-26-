@@ -8,10 +8,15 @@ To create a Car class with attributes brand, model, and year, and display detail
 
 ## ALGORITHM :
 1.Define a class named Car.
+
 2.Declare three attributes: brand, model, and year.
+
 3.Create a constructor to initialize these attributes.
+
 4.Create a method to display the car details.
+
 5.In the main method, create two objects of the Car class.
+
 6.Print the details of both objects.
 
 
@@ -67,4 +72,5 @@ public class Main {
 
 ## RESULT:
 The Car class was successfully implemented with attributes brand, model, and year. Two objects were created and their details were displayed correctly, confirming proper class functionality.
+
 

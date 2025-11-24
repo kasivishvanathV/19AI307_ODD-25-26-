@@ -1,18 +1,22 @@
 # Ex.No:1(A) INTRODUCTION TO JAVA PROGRAMMING, DATA TYPES, VARIABLES AND OPERATORS
 
 ## QUESTION:
-Write a program to print "Hey, my first java program!" using output statement.
+Write a program to print "Hello, Ajeesh" using output statement.
 
 ## AIM:
 To write, compile and execute a simple Java program that displays a message on the screen.
 
 ## ALGORITHM :
 ```
-1.START the program execution
-2.CREATE a class named prog
-3.DEFINE the main method as program entry point
-4.PRINT "Hey, my first java program!" to console
-5.STOP the program execution
+1. START the program
+2. IMPORT Scanner class for reading input
+3. CREATE a class named prog
+4. DEFINE main() method
+5. CREATE Scanner object to accept user input
+6. READ the user’s name using Scanner
+7. DISPLAY the message "Hello, [name]"
+8. STOP the program
+
 ```
 
 ## PROGRAM:
@@ -46,6 +50,7 @@ class prog{
 
 ## RESULT:
 The Java program compiled and executed successfully, producing the output "Hello, Ajeesh", passing all test cases with a full score.
+
 
 
 

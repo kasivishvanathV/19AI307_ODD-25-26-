@@ -45,11 +45,12 @@ class prog{
 
 ## OUTPUT:
 
-<img width="736" height="169" alt="image" src="https://github.com/user-attachments/assets/353f359e-8c07-4e36-abc3-bcc19e5b5a70" />
+<img width="1285" height="261" alt="Screenshot 2025-11-24 151927" src="https://github.com/user-attachments/assets/ab9ab05b-ced3-4d09-a8e5-8d4fcf826a32" />
 
 
 ## RESULT:
 The Java program compiled and executed successfully, producing the output "Hello, Ajeesh", passing all test cases with a full score.
+
 
 
 

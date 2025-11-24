@@ -34,27 +34,30 @@ RegisterNumber: 212222040073
 
 ## SOURCE CODE:
 ```
-import java.util.*;
-public class pirate{
-    
-    public static void main(String arg[])
-    {
-        int num;
-        Scanner in = new Scanner(System.in);
-        num=in.nextInt();
-        if(num%2==0)
-        {
-            if(num<100)
-            System.out.println("Weak Code");
-            else if(num>100 && num<999)
-            System.out.println("Strong Code");
-            else
+import java.util.Scanner;
+
+public class PirateCodeLock {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int code = sc.nextInt();
+
+        if (code % 2 != 0) {
             System.out.println("Access Denied");
+        } else {
+            if (code < 100) {
+                System.out.println("Weak Code");
+            } else if (code >= 100 && code <= 999) {
+                System.out.println("Strong Code");
+            } else {
+                System.out.println("Access Denied"); 
+            }
         }
-        else
-         System.out.println("Access Denied");
+
+        sc.close();
     }
 }
+
 ```
 ## OUTPUT:
 <img width="572" height="374" alt="image" src="https://github.com/user-attachments/assets/dae2b989-f163-41dc-8624-39338702af66" />
@@ -62,3 +65,4 @@ public class pirate{
 
 ## RESULT:
 Thus, the Java program successfully checks the pirate code and displays whether it is a Weak Code, Strong Code, or Access Denied.
+

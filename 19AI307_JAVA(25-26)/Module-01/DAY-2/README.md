@@ -60,9 +60,10 @@ public class PirateCodeLock {
 
 ```
 ## OUTPUT:
-<img width="572" height="374" alt="image" src="https://github.com/user-attachments/assets/dae2b989-f163-41dc-8624-39338702af66" />
+<img width="714" height="465" alt="Screenshot 2025-11-24 155513" src="https://github.com/user-attachments/assets/e9791f33-fcf6-4c53-9ef0-2be4f95a4997" />
 
 
 ## RESULT:
 Thus, the Java program successfully checks the pirate code and displays whether it is a Weak Code, Strong Code, or Access Denied.
+
 

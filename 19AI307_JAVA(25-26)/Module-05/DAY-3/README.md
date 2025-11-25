@@ -31,7 +31,7 @@ To read lines until "exit" is entered and display only the lines containing the 
  ```
 /*
 Program to implement a File Handling using Java
-Developed by: KAsivishvanath V
+Developed by: Kasivishvanath V
 RegisterNumber: 212222040073
 */
 ```
@@ -84,3 +84,4 @@ public class LinesWithJava {
 
 ## RESULT:
 The program successfully prints only the lines that contain the word "Java".
+

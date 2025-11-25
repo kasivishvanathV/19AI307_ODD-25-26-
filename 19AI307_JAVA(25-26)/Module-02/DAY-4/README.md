@@ -31,39 +31,37 @@ RegisterNumber: 212222040073
 ```
 import java.util.Scanner;
 
-class Employee {
-    int id;
-    String name;
-    double salary;
+public class Employee {
+    private int id;
+    private String name;
+    private double salary;
 
-    public Employee(int id, String name, double salary) {
+    Employee(int id, String name, double salary) {
         this.id = id;
         this.name = name;
         this.salary = salary;
     }
-}
 
-public class Main {
+    void display() {
+        System.out.println("Employee Details:");
+        System.out.println("Employee ID: " + id);
+        System.out.println("Employee Name: " + name);
+        System.out.println("Employee Salary: " + salary);
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
         int id = sc.nextInt();
-        String name = sc.next();
+        sc.nextLine();
+        String name = sc.nextLine();
         double salary = sc.nextDouble();
-
         Employee emp = new Employee(id, name, salary);
-
-        System.out.println("Employee Details:");
-        System.out.println("Employee ID: " + emp.id);
-        System.out.println("Employee Name: " + emp.name);
-        System.out.println("Employee Salary: " + emp.salary);
+        emp.display();
+        sc.close();
     }
 }
+
 ```
-
-
-
-
 
 ## OUTPUT:
 
@@ -72,3 +70,4 @@ public class Main {
 
 ## RESULT:
   Thus, the Java program was successfully written and executed using a parameterized constructor to initialize employee details.
+

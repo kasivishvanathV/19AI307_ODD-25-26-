@@ -1,76 +1,65 @@
 # Ex.No:2(A) CLASS AND OBJECT
 
 ## QUESTION:
-Create a class Car with attributes brand, model, year. Create 2 objects and print their details.
+Create a class Course with attributes code, title, credits.
 
 ## AIM:
-To create a Car class with attributes brand, model, and year, and display details of two objects of the class.
+To write a Java program that defines a class Course with the attributes code, title, and credits, and to create an object to display the course details.
 
 ## ALGORITHM :
-1.Define a class named Car.
-
-2.Declare three attributes: brand, model, and year.
-
-3.Create a constructor to initialize these attributes.
-
-4.Create a method to display the car details.
-
-5.In the main method, create two objects of the Car class.
-
-6.Print the details of both objects.
-
-
-
-
+1.	Start the program.
+2.	Import the necessary package 'java.util'
+3.	Define the class Course with attributes code, title, and credits.
+4.	Create a constructor and a display method to show course details.
+5.	In the main method, create a Course object and call the display method.
 
 ## PROGRAM:
  ```
 /*
 Program to implement a Class and Objects using Java
 Developed by: Kasivishvanath V
-RegisterNumber:  212222040073
+RegisterNumber: 212222040073 
 */
 ```
 
 ## SOURCE CODE:
 ```
-class Car {
-    String brand;
-    String model;
-    int year;
-    Car(String brand, String model, int year) {
-        this.brand = brand;
-        this.model = model;
-        this.year = year;
-    }
-    void displayDetails(String carName) {
-        System.out.println(carName + ": " + brand + " " + model + " " + year);
-    }
+import java.util.Scanner;
+
+class Course {
+    String code;
+    String title;
+    int credits;
 }
 
 public class Main {
     public static void main(String[] args) {
-        Car car1 = new Car("Toyota", "Innova", 2022);
-        Car car2 = new Car("Hyundai", "i20", 2021);
-        car1.displayDetails("Car 1");
-        car2.displayDetails("Car 2");
+        Scanner sc = new Scanner(System.in);
+
+        Course c1 = new Course();
+        c1.code = sc.next();
+        c1.title = sc.next();
+        c1.credits = sc.nextInt();
+
+        Course c2 = new Course();
+        c2.code = sc.next();
+        c2.title = sc.next();
+        c2.credits = sc.nextInt();
+
+        System.out.println(c1.code + " | " + c1.title + " | " + c1.credits + " credits");
+        System.out.println(c2.code + " | " + c2.title + " | " + c2.credits + " credits");
+
+        sc.close();
     }
 }
 
+
 ```
 
-
-
-
-
-
 ## OUTPUT:
-
-<img width="717" height="205" alt="Screenshot 2025-11-24 161214" src="https://github.com/user-attachments/assets/cfbffd96-8b80-4739-94a5-e5043ddd549f" />
+<img width="854" height="331" alt="image" src="https://github.com/user-attachments/assets/4ea897d0-754b-487f-8a09-d845000113bd" />
 
 
 
 ## RESULT:
-The Car class was successfully implemented with attributes brand, model, and year. Two objects were created and their details were displayed correctly, confirming proper class functionality.
-
-
+The program successfully creates a Course class with attributes code, title, and credits, and displays the details of a course using a class object.

@@ -23,20 +23,18 @@ RegisterNumber: 212222040073
 
 ## SOURCE CODE:
 ```
-import java.util.*;
-class prog{
-    public static void main(String args[])
-    {
-        Scanner in = new Scanner(System.in);
-        String s1,s2;
-        s1=in.next();
-        s2=in.next();
-        int n1,n2;
-        n1=Integer.parseInt(s1);
-        n2=Integer.parseInt(s2);
-        System.out.println("Sum = "+(n1+n2));
+import java.util.Scanner;
+
+public class StringToIntAddition {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num1 = Integer.parseInt(sc.next());
+        int num2 = Integer.parseInt(sc.next());
+
+        System.out.println("Sum = " + (num1 + num2));
     }
 }
+
 ```
 
 ## OUTPUT:
@@ -46,3 +44,4 @@ class prog{
 
 ## RESULT:
 The program successfully converts a string into an integer using the Integer wrapper class and performs addition, displaying the correct final result.
+
